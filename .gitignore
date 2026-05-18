@@ -1,0 +1,108 @@
+# ==============================================
+# 🔥 AI Agent / LLM / LangChain / LangGraph 专用
+# ==============================================
+
+# 密钥 & 环境隐私（绝对不能上传）
+.env
+.env.*
+!.env.example
+secrets.yaml
+secrets.json
+api_keys.json
+config.json
+credentials.json
+azure_openai.json
+openai_api_key.txt
+kaggle.json
+.pem
+.key
+
+# 向量数据库 / 知识库
+vectorstore/
+chroma/
+faiss_index/
+faiss/
+llama_index/
+qdrant/
+weaviate/
+pinecone/
+*.index
+*.bin
+*.idx
+*.pkl
+*.pickle
+*.joblib
+
+# 模型权重 / 数据集（大文件不上传）
+models/
+weights/
+checkpoints/
+datasets/
+data/
+output/
+results/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.h5
+*.npy
+*.npz
+*.parquet
+*.arrow
+
+# LLM 缓存 / 临时文件
+cache/
+llm_cache/
+*.cache
+temp/
+tmp/
+*.tmp
+
+# 日志
+logs/
+*.log
+*.log.*
+
+# ==============================================
+# 🐍 Python 通用
+# ==============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+*.egg
+*.pyc
+
+# ==============================================
+# 📒 Jupyter / Notebook
+# ==============================================
+*.ipynb_checkpoints
+*/ipynb_checkpoints/*
+.ipynb_checkpoints/
+*.nbconvert/
+
+# ==============================================
+# 💻 VS Code / 编辑器
+# ==============================================
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# ==============================================
+# 📝 Obsidian / 笔记（你在用）
+# ==============================================
+.obsidian/
+*.md~
+*.bak.md
